@@ -33,7 +33,7 @@ def parse_agrs():
     parser.add_argument('--d_model', type=int, default=512, help='the dimension of Transformer.')
     parser.add_argument('--d_ff', type=int, default=512, help='the dimension of FFN.')
     #edit
-    parser.add_argument('--d_vf', type=int, default=2048, help='the dimension of the patch features.')
+    parser.add_argument('--d_vf', type=int, default=1024, help='the dimension of the patch features.')
     parser.add_argument('--num_heads', type=int, default=8, help='the number of heads in Transformer.')
     parser.add_argument('--num_layers', type=int, default=3, help='the number of layers of Transformer.')
     parser.add_argument('--dropout', type=float, default=0.1, help='the dropout rate of Transformer.')
