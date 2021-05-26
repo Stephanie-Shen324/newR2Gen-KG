@@ -1,5 +1,10 @@
 # README
 
+**This repo is for different concatenation option(dim = 1)** \
+**The original R2Gen-KG is for cat dim = 2**
+
+
+
 R2Gen is the implementation of [Generating Radiology Reports via Memory-driven Transformer](https://arxiv.org/pdf/2010.16056.pdf) at EMNLP-2020.
 KG and pretrained GCN comes from RGMG
 
